@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "fullName": "Nancy",
+      "email": "Nancy@gmail.com",
+      "password": "Nancy@28",
+      "id": "1"
+    },
+    {
+      "fullName": "Bryan",
+      "email": "Bryan@gmail.com",
+      "password": "Bryan10",
+      "id": "2"
+    },
+    {
+      "id": "f67f",
+      "fullName": "Bryan",
+      "email": "Bryan@gmail.com",
+      "password": "Bryan10"
+    },
+    {
+      "id": "b17f",
+      "fullName": "Nancy",
+      "email": "Nancy@gmail.com",
+      "password": "Nancy@28"
+    }
+  ]
+}
