@@ -84,6 +84,42 @@
         Password should match
       </small>
     </div>
+
+    <div class="p-field">
+  <label for="dateOfBirth"><span class="pi pi-calendar"></span>Date of Birth</label><br>
+  <p-calendar formControlName="dateOfBirth" dateFormat="dd.mm.yy" 
+  class="w-full" placeholder="DateOfBirth"></p-calendar>
+</div>
+
+<br>
+
+<div class ="col-6"></div>
+<div class="p-field">
+  <label for="Gender">Select A Gender</label> <br>
+  <div class="card flex justify-content-center">
+    <div class="flex flex-wrap gap-4">
+  <form>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br>
+  </form>
+</div>
+</div>
+<br>
+<div class="p-field">
+  <label for="City">City</label> 
+  <div class="card flex justify-content-center">
+    <form [formGroup]="formGroup">
+        <p-dropdown 
+            formControlName="selectedCity"
+            [options]="cities"
+            optionLabel="name"
+            placeholder="Select a City" />
+    </form>
+</div>
     <p-button
       label="Register"
       styleClass="w-full"
