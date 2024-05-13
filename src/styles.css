@@ -1,8 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
 @import "primeicons/primeicons.css";
 
-html,
+
+html {
+  font-size: 13px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 body {
-  height: 100%;
-  margin: 0;
+  height: 50;
+  align-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: normal;
+  font-style: bold;
+  background-color: lightblue;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-origin: padding-box 10%;
+  padding: 2rem;
+  background-position-x: center;
+  -webkit-flow-from: initial;
+  font-size: medium;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 0px;
+  margin-bottom: 0rem;
+  shape-image-threshold: initial;
+  font-size: medium;
+
 }
